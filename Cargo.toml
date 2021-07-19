@@ -1,6 +1,6 @@
 [package]
 name = "ethereum"
-version = "0.7.1"
+version = "0.8.0"
 license = "Apache-2.0"
 authors = ["Wei Tang <hi@that.world>"]
 description = "Core block and transaction types for Ethereum."
@@ -9,7 +9,7 @@ keywords = ["no_std", "ethereum"]
 edition = "2018"
 
 [dependencies]
-ethereum-types = { version = "0.11", default-features = false, features = ["rlp"] }
+ethereum-types = { version = "0.12", default-features = false, features = ["rlp"] }
 rlp = { version = "0.5", default-features = false }
 codec = { package = "parity-scale-codec", version = "2.0", default-features = false, features = ["derive"], optional = true }
 serde = { version = "1.0", default-features = false, features = ["derive"], optional = true }
